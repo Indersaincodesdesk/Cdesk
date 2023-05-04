@@ -1,0 +1,205 @@
+.blog-banner-section {
+    width: 100%;
+}
+
+.blog-banner {
+    height: 701px;
+    background: linear-gradient(256.68deg, rgba(191, 219, 56, 0.7) -0.39%, rgba(246, 84, 14, 0.7) 84.31%), url(/assets/image/blog-banner-1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.blog-banner-heading {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 80px;
+    color: var(--white);
+    font-family: var(--body-font);
+}
+
+.service-head .back-txt {
+    font-weight: 700;
+    font-size: 128px;
+    line-height: 100px;
+    color: transparent;
+    font-family: var(--body-font);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #DFE0E5;
+}
+
+.service-head {
+    width: 100%;
+    text-align: center;
+}
+
+.service-head .sub-text {
+    justify-content: center;
+    margin-top: -62px;
+}
+
+.service-head .text {
+    color: #666666;
+    width: 100%;
+    max-width: 765px;
+    margin: 0 auto;
+}
+
+.service-head {
+    width: 100%;
+    max-width: 1440px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto;
+    margin-bottom: 80px;
+}
+
+.blog-card {
+    max-width: 453px;
+    height: 607px;
+}
+
+.blog-card::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 85%;
+    background: linear-gradient(180deg, rgba(246, 84, 14, 0) 1.04%, #F6540E 92.71%);
+    transform: scaleY(1);
+    z-index: 99;
+    transform-origin: bottom;
+}
+
+.upper-txt-blog svg {
+    width: 20px;
+}
+
+.upper-txt-blog .blog-txt-up {
+    font-weight: 500;
+    margin-left: 15px;
+    margin-right: 25px;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: var(--body-font);
+    color: var(--white);
+}
+
+.upper-txt-blog .blog-txt-up-2 {
+    font-weight: 500;
+    margin-left: 15px;
+    margin-right: 25px;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: var(--body-font);
+    color: var(--white);
+}
+
+.down-text-blog .blog-txt-dw {
+    max-width: 327px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    margin-top: 13px;
+    font-family: var(--body-font);
+    color: var(--white);
+}
+
+.blog-banner-txt {
+    bottom: 44px;
+    left: 44px;
+    z-index: 999;
+}
+
+.blog-btn-wrapper {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 90px;
+}
+
+.card-button {
+    display: inline-block;
+    width: 100%;
+    color: var(--white);
+    max-width: 160px;
+    height: 60px;
+    font-size: 15px;
+    line-height: 60px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+}
+
+@media only screen and (max-width:767px) {
+    .blog-banner {
+        height: 350px;
+    }
+    .blog-banner-heading {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .service-head .back-txt {
+        display: none;
+    }
+    .blog-section.margin-90 {
+        margin-top: 60px;
+    }
+    .service-head {
+        margin-bottom: 0px;
+    }
+    .service-head .sub-text {
+        margin-top: 0px;
+    }
+    .blog-images.margin-40 {
+        margin-top: 25px;
+    }
+    .blog-card {
+        height: auto;
+        margin: 0px auto;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:991px) {
+    .back-txt {
+        font-size: 95px !important;
+    }
+    .blog-banner {
+        height: 560px;
+    }
+    .blog-images {
+        justify-content: center;
+        gap: 20px;
+    }
+    .blog-card {
+        max-width: 350px;
+        height: auto;
+    }
+    .upper-txt-blog .blog-txt-up {
+        font-size: 13px;
+        line-height: 15px;
+    }
+    .blog-banner-txt {
+        left: 23px;
+    }
+}
+
+@media only screen and (min-width:992px) and (max-width:1280px) {
+    .blog-images {
+        justify-content: center;
+        gap: 20px;
+    }
+    .blog-card {
+        max-width: 304px;
+        height: auto;
+    }
+    .upper-txt-blog .blog-txt-up {
+        font-size: 13px;
+        line-height: 15px;
+    }
+    .blog-banner-txt {
+        left: 23px;
+    }
+}

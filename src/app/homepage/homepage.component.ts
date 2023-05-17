@@ -69,7 +69,7 @@ export class HomepageComponent implements OnInit {
         {
           breakpoint: 1025,
           settings: {
-            slidesToShow: 1.6,
+            slidesToShow: 2,
             slidesToScroll: 1,
             centerPadding: '80px',
           }

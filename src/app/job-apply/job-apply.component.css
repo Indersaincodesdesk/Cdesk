@@ -168,6 +168,9 @@
     .custom {
         margin-top: 0px;
     }
+    .c-file[type=file]::-webkit-file-upload-button {
+        padding: 15px 10.66px;
+    }
 }
 
 @media only screen and (min-width:768px) and (max-width:991px) {

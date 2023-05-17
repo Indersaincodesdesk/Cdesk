@@ -19,7 +19,10 @@ $(document).on("click", "#toggle", function() {
     $("#menu").slideToggle();
 });
 
-// ------------ About us tabs -----------
+// ------------ Homepage About us tabs -----------
+// or
+// ------------other page tabs 
+
 
 $(document).ready(function() {
     $('.tab-heading').on('click', function() {
@@ -28,7 +31,7 @@ $(document).ready(function() {
             $(this).removeClass('active');
         } else {
             $('.tabcontent').slideUp();
-            $('tab-heading').removeClass('active');
+            $('.tab-heading').removeClass('active');
             $(this).siblings('.tabcontent').slideDown();
             $(this).toggleClass('active');
         }
@@ -63,9 +66,24 @@ $(document).ready(function() {
     });
 });
 
+// ------------homepage card toggle mobile -------------
+
+$(document).ready(function() {
+    $(document).on('click', '.cardswitcher', function() {
+        $(this).parent().prev('.cardcontainer').slideDown();
+        $(this).addClass('active');
+        $(this).text('Show Less');
+    });
+    $(document).on('click', '.cardswitcher.active', function() {
+        $(this).parent().prev('.cardcontainer').slideUp();
+        $(this).removeClass('active');
+        $(this).text('Show More');
+    });
+});
+
 // ------------homepage Our-work ---------
 // end
-// ------------our-work ----------
+// ------------our-work page ----------
 
 $(document).ready(function() {
     var previousActiveTabIndex = 0;
@@ -93,7 +111,7 @@ $(document).ready(function() {
     });
 });
 
-// ------------ Counter -------------
+// ------------ Counters -------------
 
 var e = setInterval(function() {
     if ($("#counter-main").length) {

@@ -3,7 +3,9 @@
 }
 
 .banner-wrapper {
-    min-height: 701px;
+    height: 100%;
+    max-height: 701px;
+    width: 100%;
 }
 
 .service-head .back-txt {
@@ -106,6 +108,7 @@
 
 .about-work-wrapper .about-work-txt {
     width: 50%;
+    padding-right: 20px;
 }
 
 .about-work-wrapper .about-work-txt .red-text img,
@@ -121,6 +124,7 @@
     font-size: 18px;
     line-height: 27px;
     font-family: var(--body-font);
+    text-transform: uppercase;
 }
 
 .about-work-wrapper .about-work-txt .head-txt {
@@ -416,7 +420,7 @@
 }
 
 .screen-image-wrapper-2 .img-wrap {
-    max-width: 690px;
+    max-width: 49.5%;
 }
 
 .slider-wrap {
@@ -452,4 +456,365 @@
 
 .pics-slide.slick-current:after {
     transform: scaleY(0);
+}
+
+.mobile {
+    display: none;
+}
+
+@media only screen and (max-width:767px) {
+    .back-txt {
+        display: none;
+    }
+    .banner-wrapper {
+        height: 100%;
+        max-height: 355px;
+    }
+    .scope-section-1.margin-90 {
+        margin: 123px 0px 60px;
+    }
+    .scope-section-2.margin-90 {
+        margin: 123px 0px 120px;
+    }
+    .scope-section .scope-cards-wrapper .scpoe-all-card-1 {
+        flex-wrap: wrap;
+        row-gap: 40px;
+    }
+    .scope-cards-wrapper {
+        margin-top: 0px;
+    }
+    .service-head {
+        margin-bottom: 25px;
+    }
+    .scope-cards-wrapper .scpoe-all-card-2 {
+        flex-wrap: wrap;
+        row-gap: 60px;
+    }
+    .about-work-wrapper .about-work-txt .red-text .txt-red,
+    .key-wrapper .key-txt-wrap .red-text .txt-red {
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .about-work-wrapper .about-work-txt .head-txt {
+        font-size: 24px;
+        line-height: 30px;
+        margin-top: 5px;
+    }
+    .about-work-wrapper .about-work-txt .txt-grey {
+        font-size: 15px;
+        margin-top: 10px;
+    }
+    .about-work-wrapper {
+        flex-wrap: wrap;
+    }
+    .about-btn-wrapper {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .about-work-wrapper .about-work-txt {
+        width: 100%;
+    }
+    .about-work-wrapper .about-work-img {
+        width: 100%;
+        max-width: 100%;
+    }
+    .scope-cards-wrapper .scope-card {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    .scope-cards-wrapper .scope-card .card-txt {
+        max-width: 400px;
+    }
+    .key-wrapper {
+        flex-wrap: wrap-reverse;
+    }
+    .key-wrapper .key-img-wrap {
+        width: 100%;
+        margin-top: 21px;
+    }
+    .desktop {
+        display: none;
+    }
+    .mobile {
+        display: block;
+    }
+    .key-wrapper .key-txt-wrap {
+        width: 100%;
+        margin-left: 0px;
+    }
+    .key-feature.margin-90 {
+        margin: 60px 0px;
+    }
+    .key-wrapper .key-txt-wrap .txt-light {
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+    .tabs {
+        max-width: 100%;
+    }
+    .tab-heading {
+        font-size: 14px;
+        line-height: 20px;
+        padding: 15px 10px;
+        margin-top: 15px;
+    }
+    .tab-heading::before {
+        height: 15px;
+        margin-top: -8px;
+        right: 20px;
+    }
+    .tab-heading::after {
+        width: 15px;
+        right: 14px;
+    }
+    .content {
+        padding: 16px 10px;
+        max-width: 100%;
+    }
+    .content p {
+        font-size: 15px;
+    }
+    .process-section.margin-90 {
+        margin: 124px 0px 60px;
+    }
+    .process-wrap.margin-40 {
+        margin-top: 0px;
+    }
+    .scope-cards-wrapper .scope-card-2 {
+        width: 100%;
+        max-width: 100%;
+    }
+    .screen-section.p-bottom-90 {
+        margin-bottom: 110px;
+    }
+    .screen-image-wrapper {
+        padding-top: 0px;
+    }
+    .screen-image-wrapper-2 {
+        flex-wrap: wrap-reverse;
+        row-gap: 20px;
+    }
+    .screen-image-wrapper-2 .img-wrap {
+        max-width: 100%;
+    }
+    .tilte-wrap {
+        margin-left: 0px;
+    }
+    .tilte-wrap .process-list {
+        padding: 51px 0px;
+    }
+    .tilte-wrap .process-list .list:last-child {
+        margin-bottom: 0px;
+    }
+    .tilte-wrap .process-list .list {
+        padding-left: 10px;
+    }
+    .tilte-wrap .process-list .list span {
+        height: 69px;
+        width: 67px;
+        font-size: 32px;
+        line-height: 39px;
+        padding: 15px 27px;
+    }
+    .tilte-wrap .process-list .list .list-text-wrap .heading {
+        font-size: 20px;
+        line-height: 30px;
+        margin-bottom: 8px;
+    }
+    .tilte-wrap .process-list .list .list-text-wrap .text {
+        font-size: 15px;
+        line-height: 25px;
+        max-width: 197px;
+        margin-bottom: 0px;
+    }
+    .image-wrap {
+        position: absolute;
+        padding: 0px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 330px;
+    }
+    .image-wrap img {
+        max-width: 494px;
+        height: 500px;
+    }
+    .image-wrap {
+        animation: none;
+    }
+    .slider-section .cs-slider button.slick-arrow {
+        display: inline-block !important;
+    }
+    .head-text-slider .text-red-head {
+        font-size: 24px;
+        line-height: 30px;
+        font-weight: 600;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:991px) {
+    .banner-wrapper {
+        height: 100%;
+        max-height: 560px;
+    }
+    .banner-wrapper img {
+        padding: 103px 0px;
+    }
+    .back-txt {
+        font-size: 95px !important;
+    }
+    .scope-cards-wrapper .scpoe-all-card {
+        flex-wrap: wrap;
+        row-gap: 20px;
+    }
+    .scope-cards-wrapper .scope-card {
+        max-width: 50%;
+        width: 100%;
+    }
+    .about-work-wrapper .about-work-txt .head-txt {
+        font-size: 32px;
+        line-height: 40px;
+        margin-top: 5px;
+    }
+    .about-work-wrapper .about-work-txt .txt-grey {
+        line-height: 27px;
+        font-size: 15px;
+    }
+    .about-btn-wrapper {
+        margin-top: 20px;
+    }
+    .card-button {
+        max-width: 130px;
+        height: 50px;
+        line-height: 50px;
+    }
+    .content {
+        padding: 10px;
+    }
+    .tab-heading {
+        padding: 12px 10px;
+        font-size: 15px;
+        line-height: 22px;
+        margin-top: 10px;
+    }
+    .content p {
+        line-height: 25px;
+        font-size: 15px;
+    }
+    .key-wrapper .key-txt-wrap {
+        margin-left: 20px;
+    }
+    .key-wrapper .key-txt-wrap .txt-light {
+        line-height: 25px;
+        font-size: 15px;
+        margin-top: 5px;
+    }
+    .tilte-wrap .process-list .list:last-child {
+        margin-bottom: 0px;
+    }
+    .tilte-wrap .process-list .list {
+        padding-left: 15px;
+        margin-bottom: 15px;
+        margin-top: 10px;
+    }
+    .tilte-wrap .process-list .list span {
+        height: 57px;
+        width: 57px;
+        font-size: 25px;
+        line-height: 27px;
+        padding: 20px;
+    }
+    .tilte-wrap .process-list .list .list-text-wrap .heading {
+        font-size: 22px;
+        line-height: 28px;
+        margin-bottom: 8px;
+    }
+    .tilte-wrap .process-list .list .list-text-wrap .text {
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .image-wrap {
+        position: absolute;
+        padding: 0px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .image-wrap img {
+        max-width: 494px;
+        height: 500px;
+    }
+    .image-wrap {
+        animation: none;
+    }
+    .screen-image-wrapper-2 .img-wrap {
+        max-width: 49.1%;
+    }
+}
+
+@media only screen and (min-width:992px) and (max-width:1280px) {
+    .banner-wrapper img {
+        padding: 119px 0px;
+    }
+    .tab-heading {
+        padding: 12px 10px;
+        font-size: 18px;
+        line-height: 22px;
+        margin-top: 10px;
+    }
+    .scope-cards-wrapper .scope-card .card-txt {
+        font-size: 15px;
+        line-height: 25px;
+        margin-top: 10px;
+    }
+    .about-work-wrapper .about-work-txt .head-txt {
+        font-size: 34px;
+        line-height: 44px;
+    }
+    .about-work-wrapper .about-work-txt .txt-grey {
+        line-height: 27px;
+        font-size: 15px;
+    }
+    .about-btn-wrapper {
+        margin-top: 30px;
+    }
+    .card-button {
+        max-width: 130px;
+        height: 50px;
+        line-height: 50px;
+    }
+    .content {
+        padding: 10px;
+    }
+    .content p {
+        line-height: 25px;
+        font-size: 15px;
+    }
+    .key-wrapper .key-txt-wrap .txt-light {
+        line-height: 25px;
+        font-size: 15px;
+        margin-top: 5px;
+    }
+    .tilte-wrap .process-list .list {
+        padding-left: 15px;
+        margin-bottom: 15px;
+    }
+    .tilte-wrap .process-list .list span {
+        height: 57px;
+        width: 57px;
+        font-size: 25px;
+        line-height: 27px;
+        padding: 20px;
+    }
+    .tilte-wrap .process-list .list .list-text-wrap .heading {
+        font-size: 22px;
+        line-height: 28px;
+        margin-bottom: 8px;
+    }
+    .tilte-wrap .process-list .list .list-text-wrap .text {
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .screen-image-wrapper-2 .img-wrap {
+        max-width: 49.1%;
+    }
 }

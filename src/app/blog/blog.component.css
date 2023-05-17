@@ -55,7 +55,7 @@
 }
 
 .blog-card {
-    max-width: 453px;
+    max-width: 32.5%;
     height: 607px;
 }
 
@@ -133,6 +133,42 @@
     border: none;
 }
 
+@media only screen and (min-width:768px) and (max-width:991px) {
+    .blog-banner {
+        height: 560px;
+    }
+    .blog-card {
+        max-width: 49%;
+        height: 100%;
+    }
+    .blog-banner-txt {
+        left: 50%;
+        transform: translateX(-43%);
+        width: 100%;
+    }
+    .back-txt {
+        font-size: 95px !important;
+    }
+}
+
+@media only screen and (min-width:992px) and (max-width:1280px) {
+    .blog-card {
+        max-width: 32.5%;
+        height: 100%;
+    }
+    .upper-txt-blog .blog-txt-up {
+        font-size: 13px;
+        line-height: 15px;
+    }
+    .blog-banner-txt {
+        left: 23px;
+    }
+    .down-text-blog .blog-txt-dw {
+        font-size: 22px;
+        line-height: 28px;
+    }
+}
+
 @media only screen and (max-width:767px) {
     .blog-banner {
         height: 350px;
@@ -140,6 +176,10 @@
     .blog-banner-heading {
         font-size: 24px;
         line-height: 30px;
+    }
+    .blog-banner-txt {
+        bottom: 30px;
+        left: 10px;
     }
     .service-head .back-txt {
         display: none;
@@ -157,49 +197,23 @@
         margin-top: 25px;
     }
     .blog-card {
-        height: auto;
+        height: 100%;
         margin: 0px auto;
+        max-width: 100%;
     }
-}
-
-@media only screen and (min-width:768px) and (max-width:991px) {
-    .back-txt {
-        font-size: 95px !important;
+    .down-text-blog .blog-txt-dw {
+        font-size: 20px;
+        line-height: 25px;
+        max-width: 100%;
+        padding-right: 20px;
     }
-    .blog-banner {
-        height: 560px;
+    .upper-txt-blog svg {
+        width: 15px;
+        height: 15px;
     }
-    .blog-images {
-        justify-content: center;
-        gap: 20px;
-    }
-    .blog-card {
-        max-width: 350px;
-        height: auto;
-    }
-    .upper-txt-blog .blog-txt-up {
-        font-size: 13px;
-        line-height: 15px;
-    }
-    .blog-banner-txt {
-        left: 23px;
-    }
-}
-
-@media only screen and (min-width:992px) and (max-width:1280px) {
-    .blog-images {
-        justify-content: center;
-        gap: 20px;
-    }
-    .blog-card {
-        max-width: 304px;
-        height: auto;
-    }
-    .upper-txt-blog .blog-txt-up {
-        font-size: 13px;
-        line-height: 15px;
-    }
-    .blog-banner-txt {
-        left: 23px;
+    .upper-txt-blog .blog-txt-up,
+    .upper-txt-blog .blog-txt-up-2 {
+        font-size: 14px;
+        line-height: 20px;
     }
 }

@@ -26,7 +26,7 @@ export class ShopifyComponent implements OnInit {
         {
           breakpoint: 1025,
           settings: {
-            slidesToShow: 1.6,
+            slidesToShow: 2.4,
             slidesToScroll: 1,
             centerPadding: '80px',
           }
@@ -43,7 +43,7 @@ export class ShopifyComponent implements OnInit {
         {
           breakpoint: 480,
           settings: {
-            slidesToShow: 1.1,
+            slidesToShow: 1.5,
             slidesToScroll: 1,
             centerPadding: '50px',
           }
@@ -66,7 +66,7 @@ export class ShopifyComponent implements OnInit {
           {
             breakpoint: 1025,
             settings: {
-              slidesToShow: 1.6,
+              slidesToShow: 2,
               slidesToScroll: 1,
               centerPadding: '80px',
             }
@@ -74,7 +74,7 @@ export class ShopifyComponent implements OnInit {
           {
             breakpoint: 600,
             settings: {
-              slidesToShow: 1.4,
+              slidesToShow: 1,
               slidesToScroll: 1,
               centerPadding: '40px',
               
@@ -83,7 +83,7 @@ export class ShopifyComponent implements OnInit {
           {
             breakpoint: 480,
             settings: {
-              slidesToShow: 1.1,
+              slidesToShow: 1,
               slidesToScroll: 1,
               centerPadding: '50px',
             }

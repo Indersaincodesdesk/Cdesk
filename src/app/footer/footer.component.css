@@ -246,6 +246,15 @@
     .subscribe {
         max-width: 750px;
     }
+    .menu-wrapper .nav .nav-item .nav-link {
+        margin-right: 40px;
+    }
+    .copyright-wrapper .copyright {
+        max-width: 240px;
+    }
+    .subscribe-form label {
+        margin-right: 50px;
+    }
 }
 
 @media only screen and (min-width:992px) and (max-width:1280px) {

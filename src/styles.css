@@ -201,6 +201,10 @@ span {
     display: flex;
 }
 
+.c-gap {
+    column-gap: 20px;
+}
+
 .wrap {
     flex-wrap: wrap;
     row-gap: 20px;
@@ -216,6 +220,10 @@ span {
 
 .space-between {
     justify-content: space-between;
+}
+
+.space-evenly {
+    justify-content: space-evenly;
 }
 
 .text-align-c {
@@ -392,6 +400,7 @@ span {
     text-align: center;
     border-radius: 4px;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .banner-bt.black {
@@ -1290,12 +1299,24 @@ img {
     text-align: center;
 }
 
+.design-two .slider-design .cs-slider .slick-arrow.prev-arrow {
+    left: -25%;
+}
+
 @media only screen and (max-width:767px) {
     .slider-wrap .cs-slider button.slick-arrow {
         display: none !important;
     }
+    #portfolio-slider .cs-slider button.slick-arrow {
+        display: inline-block !important;
+        right: 20px;
+    }
     .image-slider-items .slick-dots {
         background-color: transparent;
+        padding: 0px 10px 20px 10px;
+    }
+    .image-slide-text {
+        padding: 20px;
     }
     .slider-static-text .sub-text {
         font-size: 20px;
@@ -1310,5 +1331,49 @@ img {
     .text-tab-padding {
         padding: 0px;
         width: 100% !important;
+    }
+    .design-two .slider-design .cs-slider .slick-arrow.prev-arrow {
+        top: -106%;
+        left: 254px;
+    }
+    .design-two .slider-design .cs-slider .slick-arrow.next-arrow {
+        top: -106%;
+        right: 16px;
+    }
+    .call-icon:before {
+        width: 50px;
+        height: 50px;
+    }
+    .grid__items {
+        margin-left: 0px;
+    }
+    .slick-dots li {
+        border-radius: 5px;
+        width: 20px !important;
+        height: 10px !important;
+    }
+    .slick-dots .slick-active {
+        width: 25px !important;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:991px) {
+    .design-two .slider-design .cs-slider .slick-arrow.prev-arrow {
+        top: -162%;
+        left: 78%;
+    }
+    .design-two .slider-design .cs-slider .slick-arrow.next-arrow {
+        top: -162%;
+        right: 6%;
+    }
+}
+
+@media only screen and (min-width:992px) and (max-width:1280px) {
+    .design-two .slider-design .cs-slider .slick-arrow.prev-arrow {
+        left: -56px !important;
+    }
+    .design-two .slider-design .cs-slider .slick-arrow.next-arrow {
+        right: -3%;
+        top: 39%;
     }
 }

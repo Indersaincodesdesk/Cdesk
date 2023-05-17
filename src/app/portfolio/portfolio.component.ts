@@ -39,7 +39,7 @@ export class PortfolioComponent implements OnInit {
         {
           breakpoint: 600,
           settings: {
-            slidesToShow: 1.4,
+            slidesToShow: 1,
             slidesToScroll: 1,
             centerPadding: '40px',
             
@@ -48,7 +48,7 @@ export class PortfolioComponent implements OnInit {
         {
           breakpoint: 480,
           settings: {
-            slidesToShow: 1.1,
+            slidesToShow: 1,
             slidesToScroll: 1,
             centerPadding: '50px',
           }

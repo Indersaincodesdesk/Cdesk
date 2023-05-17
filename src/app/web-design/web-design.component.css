@@ -470,6 +470,7 @@
 .web-design-b {
     background: linear-gradient(258.72deg, #F6540E 0%, #BFDB38 99.23%), url(/assets/image/bg_img_line.png);
     margin-top: 140px;
+    overflow: hidden;
 }
 
 .b-heading-wrapper {
@@ -489,6 +490,7 @@
 
 .web-img-wrapper {
     max-width: 450px;
+    height: 100%;
     width: 100%;
     margin: 0 auto;
     padding-bottom: 50px;
@@ -706,4 +708,477 @@
 
 .slider-section.margin-126-b {
     margin-top: 90px;
+}
+
+.hover-card-wrapper {
+    column-gap: 20px;
+}
+
+.mobile {
+    display: none;
+}
+
+@media only screen and (max-width:767px) {
+    .text-image-wrapper {
+        flex-wrap: wrap-reverse;
+    }
+    .image-wrapper {
+        max-width: 375px;
+        margin: 0px;
+        padding: 18px 20px 29.72px;
+    }
+    .banner-text {
+        margin-bottom: 0px;
+    }
+    .banner-text .text {
+        max-width: 100%;
+        font-size: 10px;
+        line-height: 15px;
+        margin-bottom: 0px;
+    }
+    .banner-heading {
+        margin-bottom: 0px;
+    }
+    .banner-heading .heading {
+        font-size: 24px;
+        line-height: 30px;
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
+    .banner-text-last .text-last {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .text-all {
+        margin: 0px 20px 19px 20px;
+    }
+    .brand-item.p-t-b {
+        padding: 35px 0px;
+    }
+    .black-button {
+        max-width: 116px;
+        padding: 0px 15px;
+        line-height: 40px;
+    }
+    .back-txt {
+        display: none;
+    }
+    .our-service .our-service-wrapper .our-txt {
+        top: -55px;
+        max-width: 251px;
+        width: 100%;
+    }
+    .our-card-wrapper.margin-50-40 {
+        margin-bottom: 0px;
+        margin-top: 25px;
+    }
+    .our-card-wrapper .card {
+        max-width: 335px;
+    }
+    .our-card-wrapper .card .heading {
+        font-size: 30px;
+        line-height: 40px;
+        max-width: 337px;
+    }
+    .web-design .our-txt-wrapper .our-txt {
+        max-width: 292px;
+        width: 100%;
+        top: -85px;
+    }
+    .design-one {
+        padding: 70px 10px 29px;
+    }
+    .design-one .star {
+        max-width: 20px;
+        top: 30px;
+        left: 10px;
+    }
+    .design-one .head-txt {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .design-one .under-line {
+        margin-bottom: 10px;
+    }
+    .design-one .text {
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+    .design-one .txt-2 {
+        margin-bottom: 10px !important;
+    }
+    .design-one a {
+        font-size: 15px;
+    }
+    .design-one .head-txt.head-2 {
+        margin-top: 20px;
+    }
+    .design-two {
+        position: unset;
+        max-width: 100%;
+        height: 353px;
+        margin-top: 20px;
+        padding: 33px 16px 32px;
+    }
+    .design-two .head-text {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .design-two .under-line {
+        margin-bottom: 20px;
+    }
+    .design-two .head-text-2 {
+        margin-top: 20px;
+        font-size: 18px;
+    }
+    .design-two .slider-design .slide-text {
+        font-size: 15px;
+    }
+    .design-two .slider-design {
+        max-width: 100%;
+        min-height: 0px;
+        height: 40%;
+    }
+    .design-two .read-more {
+        display: flex;
+        width: 82px;
+        font-size: 15px;
+        margin: 0 auto;
+    }
+    .ui-ux-design {
+        margin-top: 70px;
+    }
+    .logo-ui-txt {
+        margin-bottom: 39px;
+    }
+    .ui-cards-all {
+        flex-wrap: wrap;
+        row-gap: 20px;
+        margin: 20px 0px;
+    }
+    .ux-heading {
+        font-size: 24px;
+        line-height: 30px;
+        margin-bottom: 10px;
+    }
+    .ux-text {
+        font-size: 15px;
+    }
+    .ux-text-2 {
+        margin-top: 10px;
+    }
+    .logo-ui {
+        margin: 38px 55px 0px 55px;
+    }
+    .hover-card-wrapper {
+        flex-wrap: wrap;
+        row-gap: 20px;
+        justify-content: center;
+    }
+    .first-ui-card {
+        margin: 0px auto;
+    }
+    .first-ui-card .upper-cards {
+        min-height: 167px;
+    }
+    .second-ui-card {
+        max-width: 100%;
+        width: 100%;
+        min-height: auto;
+    }
+    .second-ui-card .ui-card-heading {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .card-list-wrap {
+        max-width: 100%;
+    }
+    .card-list-wrap .card-list {
+        max-width: 100%;
+        width: 100%;
+    }
+    .desktop {
+        display: none;
+    }
+    .mobile {
+        display: flex;
+    }
+    .mobile.our-card-wrapper {
+        overflow: scroll;
+    }
+    .b-heading-wrapper,
+    .b-heading-wrapper .b-heading {
+        display: none;
+    }
+    .img-side-left {
+        position: unset;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    .img-side-right {
+        position: unset;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .img-side-right .side-right-group-2 {
+        margin-left: 0px;
+    }
+    .img-side-left .side-left-group .side-txt {
+        margin-right: 15px;
+        font-size: 16px;
+        line-height: 25px;
+    }
+    .img-side-right .side-right-group .side-txt {
+        margin-left: 15px;
+        font-size: 16px;
+        line-height: 25px;
+    }
+    .side-img {
+        margin-left: 0px;
+    }
+    .web-design-b {
+        background: none;
+        margin-top: 60px;
+    }
+    .web-design-b.margin-90-b {
+        margin-bottom: 115px;
+    }
+    .web-design-b-m {
+        background: linear-gradient(258.72deg, #BFDB38 0%, #F6540E 99.23%), url(../../assets/image/bg_img_line-1.png);
+        flex-wrap: wrap;
+        padding: 97px 28px;
+    }
+    .web-design-b-m.margin-90-b {
+        margin-bottom: 0px;
+    }
+    .web-img-wrapper {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .side-right-group.margin-b-60,
+    .side-left-group.margin-b-60 {
+        margin-bottom: 40px;
+    }
+    .faq-section .our-txt {
+        top: -55px;
+    }
+    .tab-heading {
+        font-size: 16px;
+        line-height: 20px;
+        padding: 10px 15px;
+    }
+    .slider-head-wrapper .title .our-title {
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .slider-head-wrapper .title {
+        max-width: 285px;
+        width: 100%;
+        top: -25px;
+    }
+    .slider-wrap .cs-slider .card-slide .card-head-slide .image-slide {
+        height: 62px;
+        width: 62px;
+    }
+    .slider-wrap .cs-slider .card-slide {
+        padding: 29px 17px;
+    }
+    .slider-section.margin-126-b {
+        margin-bottom: 96px;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:991px) {
+    .banner-heading .heading {
+        font-size: 50px;
+        line-height: 60px;
+    }
+    .banner-text .text,
+    .banner-text-last .text-last {
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .image-wrapper {
+        max-width: 335px;
+        margin: 0px;
+    }
+    .black-button {
+        max-width: 116px;
+        padding: 0px 15px;
+    }
+    .text-all {
+        margin: 20px;
+    }
+    .back-txt {
+        font-size: 95px !important;
+    }
+    /* .our-txt {
+        top: -85px;
+    } */
+    .our-card-wrapper .card .text-on-hover .hover-heading {
+        margin-bottom: 5px;
+        font-size: 30px;
+        line-height: 38px;
+        margin-top: 5px;
+    }
+    .our-card-wrapper .card .text-on-hover .hover-text {
+        font-size: 13px;
+        line-height: 20px;
+    }
+    .our-card-wrapper .cs-slider .card {
+        width: 364px;
+    }
+    .our-card-wrapper .card .heading {
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .web-design .our-txt-wrapper .our-txt {
+        width: 100%;
+    }
+    .design-two {
+        position: unset;
+        margin-top: 20px;
+        height: 500px;
+        max-width: 100%;
+        padding: 74px 70px 426px 88px;
+    }
+    .design-two .slider-design {
+        max-width: 87%;
+        min-height: 120px;
+    }
+    .ui-ux-design {
+        margin-top: 50px;
+    }
+    .ui-cards-all {
+        flex-wrap: wrap;
+        margin: 0px;
+    }
+    .first-ui-card {
+        margin: 50px auto;
+    }
+    .side-txt {
+        font-size: 15px;
+        max-width: 200px;
+    }
+    .side-img {
+        margin-left: 10px;
+    }
+    .img-side-left {
+        left: 62px;
+        top: 236px;
+    }
+    .img-side-left .side-txt {
+        text-align: right;
+    }
+    .img-side-right {
+        right: 12px;
+        top: 236px;
+    }
+    .img-side-right .side-right-group .side-txt {
+        margin-left: 10px;
+        text-align: left;
+    }
+    .web-img-wrapper {
+        max-width: 300px;
+    }
+    .b-heading-wrapper {
+        margin-bottom: 50px;
+    }
+    .tab-heading {
+        padding: 17px 10px;
+        font-size: 17px;
+        line-height: 20px;
+    }
+    .slider-section.margin-126-b {
+        margin-top: 125px;
+    }
+    .slider-head-wrapper .title .our-title {
+        font-size: 20px;
+        line-height: 29px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .web-design-b .mobile {
+        flex-direction: column;
+    }
+    .desktop {
+        display: none;
+    }
+    .mobile {
+        display: flex;
+    }
+    .mobile.our-card-wrapper {
+        overflow: scroll;
+    }
+}
+
+@media only screen and (min-width:992px) and (max-width:1280px) {
+    .image-wrapper {
+        margin: 50px 15px 51px 0px;
+        max-width: 450px;
+    }
+    .text-all {
+        margin: 20px 30px;
+    }
+    .design-one {
+        max-width: 70%;
+        padding: 90px 35px;
+    }
+    .design-two {
+        max-width: 650px;
+        max-height: 100%;
+        padding: 60px 35px 480px 418px;
+    }
+    .hover-card-wrapper {
+        justify-content: space-evenly;
+    }
+    .first-ui-card {
+        margin-right: 10px;
+        margin-left: 0px;
+        max-width: 350px;
+    }
+    .logo-ui {
+        margin: 54px 70px 0px 60px;
+        max-width: 55px;
+    }
+    .second-ui-card {
+        max-width: 49%;
+        padding: 10px 12px;
+    }
+    .second-ui-card .ui-card-heading {
+        font-size: 22px;
+        line-height: 35px;
+    }
+    .card-list-wrap .card-list {
+        font-size: 15px;
+    }
+    .img-side-left {
+        top: 226px;
+        left: 90px;
+    }
+    .web-img-wrapper {
+        max-width: 340px;
+    }
+    .img-side-right {
+        right: 20px;
+        top: 226px;
+    }
+    .side-txt {
+        font-size: 18px;
+        line-height: 23px;
+    }
+}
+
+@media only screen and (min-width:1281px) and (max-width:1366px) {
+    .second-ui-card .ui-card-heading {
+        font-size: 23px;
+    }
+    .design-two {
+        max-width: 620px;
+        height: 100%;
+    }
 }

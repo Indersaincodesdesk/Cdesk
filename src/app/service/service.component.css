@@ -28,6 +28,10 @@
             margin-top: 15px;
         }
         
+        .service-banner .button .banner-bt {
+            text-decoration: none;
+        }
+        
         .service-banner .image-with-text-wrapper .text-tab {
             padding-right: 0;
         }
@@ -164,6 +168,7 @@
             font-style: normal;
             font-weight: 600;
             color: var(--red);
+            text-decoration: none;
         }
         
         .service-tabs .flex {
@@ -271,6 +276,7 @@
             height: 297.51px;
             padding: 36.82px 25px;
             border-radius: 100px 0px;
+            transition: all 0.5s ease-in-out;
         }
         
         .expect .card-all-wrap .card img {
@@ -295,6 +301,13 @@
         
         .expect .card-all-wrap.wrap {
             row-gap: 30px;
+        }
+        
+        .expect .card-all-wrap .card:hover {
+            transform: translateY(-10px);
+            /* background: linear-gradient(180deg, #FFFFFF 0%, #F6540E 73.96%); */
+            background: #ffffffed;
+            /* color: var(--white); */
         }
         
         .quote-wrapper {
@@ -409,7 +422,6 @@
             }
             .service-tabs .flex-item {
                 width: 100%;
-                max-width: 335px;
             }
             .service-tabs .flex {
                 justify-content: center;
@@ -536,12 +548,51 @@
             .mobile {
                 display: flex;
             }
+            .mobile-card {
+                display: block;
+            }
+            .our-txt-wrapper .cdk-button {
+                max-width: 116px;
+                font-size: 13px;
+                line-height: 40px;
+                height: 40px;
+                margin-top: 20px;
+            }
+            .card-button {
+                display: inline-block;
+                width: 100%;
+                color: var(--white);
+                max-width: 160px;
+                height: 60px;
+                font-size: 15px;
+                line-height: 60px;
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 600;
+                text-align: center;
+                border-radius: 5px;
+                border: none;
+            }
+            .our-txt-wrapper {
+                width: 100%;
+                text-align: center;
+                margin-top: 20px;
+            }
+            .our-txt-wrapper .card-button.mobile {
+                margin: 0px auto;
+            }
+            .flex.col-3.cardcontainer {
+                margin-top: 30px;
+            }
             .desktop-card {
                 display: none;
             }
             #expect-us .container {
                 padding-left: 0px;
                 padding-right: 0px;
+            }
+            #expect-us .service-head {
+                margin-bottom: 0px;
             }
             .expect {
                 padding: 35px 20px;
@@ -615,13 +666,13 @@
             }
             .service-tabs .flex-item {
                 width: 100%;
-                max-width: 335px;
+                max-width: 50%;
             }
             .image-slide-text .sub-text span img {
                 height: 21px !important;
             }
             .images-slides .image-slider-items .slick-slide img {
-                height: 500px;
+                height: 564px;
             }
             .slider-head-wrapper .title .our-title {
                 font-size: 19px;
@@ -633,19 +684,26 @@
             .text {
                 font-size: 14px;
                 line-height: 22px;
+                margin-bottom: -10px;
             }
             .heading {
                 font-size: 30px;
                 line-height: 40px;
+                margin-bottom: 10px;
             }
             .slider-static-text .dots-image {
                 max-width: 150px;
+            }
+            .slider-static-text .buttons {
+                margin-top: -15px;
             }
             .image-with-text-wrapper {
                 align-items: flex-start;
             }
             .icon-text-wrapper {
-                padding: 20px 0px;
+                padding: 5px 0px;
+                margin-top: 20px;
+                margin-bottom: 27px;
             }
             .banner-bt {
                 max-width: 116px;
@@ -726,7 +784,7 @@
             .expect .card-all-wrap.wrap {
                 flex-wrap: wrap;
                 gap: 20px;
-                justify-content: center;
+                justify-content: space-evenly;
             }
             .expect .card-all-wrap .card {
                 max-width: 300px;
@@ -746,7 +804,7 @@
                 margin-bottom: 5px;
             }
             .images-slides .image-slider-items .slick-slide img {
-                height: 570px;
+                height: 589px;
             }
             .image-slide-text .sub-text span img {
                 height: 21px !important;
@@ -762,6 +820,9 @@
             .slider-static-text .buttons {
                 margin-top: 20px;
             }
+            #offer-services .circle .offer-slider {
+                max-width: 340px;
+            }
             .text-tab-padding {
                 padding: 25px 30px;
             }
@@ -775,5 +836,17 @@
             }
             .service-banner .image-with-text-wrapper .image-tab {
                 padding-top: 94px;
+            }
+        }
+        
+        @media only screen and (min-width:1281px) and (max-width:1366px) {
+            .expect .card-all-wrap .card {
+                max-width: 390px;
+            }
+            .images-slides .image-slider-items .slick-slide img {
+                height: 688px;
+            }
+            .image-slide-text .sub-text span img {
+                height: 21px !important;
             }
         }

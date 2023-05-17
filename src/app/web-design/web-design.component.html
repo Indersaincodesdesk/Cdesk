@@ -20,7 +20,8 @@
                 </div>
             </div>
             <div class="image-wrapper w-100">
-                <img src="assets/image/web-banner.png" width="100%" alt="web">
+                <img class="desktop" src="assets/image/web-banner.png" width="100%" alt="web">
+                <img class="mobile" src="assets/image/web_designing-b-m.png" width="100%" alt="web">
             </div>
         </div>
     </div>
@@ -63,10 +64,10 @@
                     <p class="our-service">
                         Our service
                     </p>
-                    <img src="assets/image/image border.png" alt="asdf">
+                    <img src="assets/image/image-border.png" alt="asdf">
                 </div>
             </div>
-            <div class="our-card-wrapper margin-50-40 flex-row align-items-center">
+            <div class="desktop our-card-wrapper margin-50-40 flex-row align-items-center">
                 <div class="card p-relative">
                     <img src="assets/image/Rectangle82.png" width="100%" alt="asdf">
                     <h2 class="heading p-absolute">DECADE IN DESIGN</h2>
@@ -97,6 +98,38 @@
 
 
             </div>
+            <div class="mobile our-card-wrapper margin-50-40 flex-row align-items-center">
+                <ngx-slick-carousel class="cs-slider flex-row align-items-center" #slickModal="slick-carousel" [config]="slidecardConfig">
+                    <div class="card p-relative">
+                        <img src="assets/image/Rectangle82.png" width="100%" alt="asdf">
+                        <h2 class="heading p-absolute">DECADE IN DESIGN</h2>
+                        <div class="text-on-hover p-absolute">
+                            <h2 class="hover-heading ">DECADE IN DESIGN</h2>
+                            <p class="hover-text ">From basic event apps to scalable enterprise software for Fortune 500 companies, our long-standing design team can help your any idea come into being with the latest tools and tech. Our well-established process and standardised
+                                approach to design will ensure the final product looks and works as you required.</p>
+                        </div>
+                    </div>
+                    <div class="card p-relative">
+                        <img src="assets/image/Rectangle83.png" width="100%" alt="asdf">
+                        <h2 class="heading p-absolute">ESTABLISHED IN-HOUSE STANDARDS</h2>
+                        <div class="text-on-hover p-absolute">
+                            <h2 class="hover-heading ">ESTABLISHED IN-HOUSE STANDARDS</h2>
+                            <p class="hover-text ">From basic event apps to scalable enterprise software for Fortune 500 companies, our long-standing design team can help your any idea come into being with the latest tools and tech. Our well-established process and standardised
+                                approach to design will ensure the final product looks and works as you required.</p>
+                        </div>
+                    </div>
+                    <div class="card p-relative">
+                        <img src="assets/image/Rectangle84.png" width="100%" alt="asdf">
+                        <h2 class="heading p-absolute">BROAD-RANGING EXPERTISE</h2>
+                        <div class="text-on-hover p-absolute">
+                            <h2 class="hover-heading ">BROAD-RANGING EXPERTISE</h2>
+                            <p class="hover-text ">From basic event apps to scalable enterprise software for Fortune 500 companies, our long-standing design team can help your any idea come into being with the latest tools and tech. Our well-established process and standardised
+                                approach to design will ensure the final product looks and works as you required.</p>
+                        </div>
+                    </div>
+
+                </ngx-slick-carousel>
+            </div>
 
         </div>
     </div>
@@ -110,7 +143,7 @@
                 <p class="our-service">
                     Web desiging & development
                 </p>
-                <img src="assets/image/image border.png" alt="asdf">
+                <img src="assets/image/image-border.png" alt="asdf">
             </div>
         </div>
         <div class="design-wrapper w-100 p-relative">
@@ -208,7 +241,7 @@
     </div>
 </section>
 <section class="web-design-b w-100 margin-90-b">
-    <div class="container p-relative">
+    <div class="container desktop p-relative">
         <div class="b-heading-wrapper">
             <h2 class="b-heading">Contact us for following website design needs</h2>
         </div>
@@ -232,8 +265,17 @@
                 </div>
             </div>
         </div>
+
         <div class="web-img-wrapper">
-            <img src="assets/image/web-design-mg.png" width="100%" alt="web-design-mg">
+            <ngx-slick-carousel class="cs-slider" #slickModal="slick-carousel" [config]="picsliderConfig">
+                <img src="assets/image/web-design-mg.png" width="100%" alt="web-design-mg" ngxSlickItem>
+                <img src="assets/image/web-design-slide-img.png" width="100%" alt="web-design-mg" ngxSlickItem>
+                <img src="assets/image/web-design-slide-img-2.png" width="100%" alt="web-design-mg" ngxSlickItem>
+                <img src="assets/image/web-design-slide-img-3.png" width="100%" alt="web-design-mg" ngxSlickItem>
+                <img src="assets/image/web-design-slide-img-4.png" width="100%" alt="web-design-mg" ngxSlickItem>
+                <img src="assets/image/web-design-slide-img-5.png" width="100%" alt="web-design-mg" ngxSlickItem>
+                <img src="assets/image/web-design-slide-img-6.png" width="100%" alt="web-design-mg" ngxSlickItem>
+            </ngx-slick-carousel>
         </div>
         <div class="img-side-right p-absolute">
             <div class="side-right-group flex-row align-items-center margin-b-60">
@@ -256,6 +298,67 @@
             </div>
         </div>
     </div>
+    <div class="container p-relative">
+        <div class="mobile flex-row web-design-b-m w-100 margin-90-b">
+
+            <div class="b-heading-wrapper">
+                <h2 class="b-heading">Contact us for following website design needs</h2>
+            </div>
+            <div class="img-side-left p-absolute">
+                <div class="side-left-group flex-row align-items-center margin-b-60">
+                    <h3 class="side-txt">Custom Web Design</h3>
+                    <div class="side-img flex-row align-items-center">
+                        <img src="assets/image/web-design-s1.png" width="100%" alt="asdf">
+                    </div>
+                </div>
+                <div class="side-left-group side-left-group-2 flex-row align-items-center margin-b-60">
+                    <h3 class="side-txt">Web Re-Designing</h3>
+                    <div class="side-img flex-row align-items-center">
+                        <img src="assets/image/web-designs2.png" width="100%" alt="asdf">
+                    </div>
+                </div>
+                <div class="side-left-group side-left-group-3 flex-row align-items-center">
+                    <h3 class="side-txt">Responsive Website Design</h3>
+                    <div class="side-img flex-row align-items-center">
+                        <img src="assets/image/web-designs3.png" width="100%" alt="asdf">
+                    </div>
+                </div>
+            </div>
+            <div class="web-img-wrapper">
+                <ngx-slick-carousel class="cs-slider" #slickModal="slick-carousel" [config]="picsliderConfig">
+                    <img src="assets/image/web-design-mg.png" width="100%" alt="web-design-mg" ngxSlickItem>
+                    <img src="assets/image/web-design-slide-img.png" width="100%" alt="web-design-mg" ngxSlickItem>
+                    <img src="assets/image/web-design-slide-img-2.png" width="100%" alt="web-design-mg" ngxSlickItem>
+                    <img src="assets/image/web-design-slide-img-3.png" width="100%" alt="web-design-mg" ngxSlickItem>
+                    <img src="assets/image/web-design-slide-img-4.png" width="100%" alt="web-design-mg" ngxSlickItem>
+                    <img src="assets/image/web-design-slide-img-5.png" width="100%" alt="web-design-mg" ngxSlickItem>
+                    <img src="assets/image/web-design-slide-img-6.png" width="100%" alt="web-design-mg" ngxSlickItem>
+                </ngx-slick-carousel>
+            </div>
+            <div class="img-side-right p-absolute">
+                <div class="side-right-group flex-row align-items-center margin-b-60">
+                    <div class="side-img flex-row align-items-center">
+                        <img src="assets/image/web-design-r1.png" width="100%" alt="asdf">
+                    </div>
+                    <h3 class="side-txt">E-Commerce Website Design</h3>
+                </div>
+                <div class="side-right-group side-right-group-2 flex-row align-items-center margin-b-60">
+                    <div class="side-img flex-row align-items-center">
+                        <img src="assets/image/web-design-r2.png" width="100%" alt="asdf">
+                    </div>
+                    <h3 class="side-txt">Graphic Design</h3>
+                </div>
+                <div class="side-right-group flex-row align-items-center">
+                    <div class="side-img flex-row align-items-center">
+                        <img src="assets/image/web-design-r3.png" width="100%" alt="asdf">
+                    </div>
+                    <h3 class="side-txt">Mobile-First Design</h3>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
 </section>
 <section class="faq-section">
     <div class="container">
@@ -266,12 +369,13 @@
                 <p class="our-service">
                     FAQ
                 </p>
-                <img src="assets/image/image border.png" alt="asdf">
+                <img src="assets/image/image-border.png" alt="asdf">
             </div>
         </div>
         <div class="faq-all w-100">
             <div class="tabs">
-                <h3 class="tab-heading tablinks"><span>Do you provide custom themes and plug-ins?</span> <span></span></h3>
+                <h3 class="tab-heading desktop tablinks"><span>Do you provide custom themes and plug-ins?</span> <span></span></h3>
+                <h3 class="tab-heading mobile tablinks"><span>Web design</span> <span></span></h3>
                 <div class="content active tabcontent" id="All">
                     <p>Yes, of course, yes. It is because of the wonderful inbuilt design option accorded with the help of WordPress. It tries to preview the design with multiple types of options. Before finally preparing your webpage, you can always preview
                         the design once to ascertain the specifications of the design by your taste and want. For this, every user of WordPress needs to follow the following steps. In the first place, you are required to prepare your webpage. After that,
@@ -282,7 +386,8 @@
                 </div>
             </div>
             <div class="tabs">
-                <h3 class="tab-heading tablinks"><span>Nam luctus elit eget ipsum gravida luctus. Maecenas auctor tortor arcu</span> <span></span></h3>
+                <h3 class="tab-heading desktop tablinks"><span>Nam luctus elit eget ipsum gravida luctus. Maecenas auctor tortor arcu</span> <span></span></h3>
+                <h3 class="tab-heading mobile tablinks"><span>Graphic Designing</span> <span></span></h3>
                 <div class="content tabcontent" id="Design">
                     <p>Yes, of course, yes. It is because of the wonderful inbuilt design option accorded with the help of WordPress. It tries to preview the design with multiple types of options. Before finally preparing your webpage, you can always preview
                         the design once to ascertain the specifications of the design by your taste and want. For this, every user of WordPress needs to follow the following steps. In the first place, you are required to prepare your webpage. After that,
@@ -293,7 +398,8 @@
                 </div>
             </div>
             <div class="tabs">
-                <h3 class="tab-heading tablinks"><span>Sed orci tellus, fringilla eget scelerisque et, feugiat nec ligula</span> <span></span></h3>
+                <h3 class="tab-heading desktop tablinks"><span>Sed orci tellus, fringilla eget scelerisque et, feugiat nec ligula</span> <span></span></h3>
+                <h3 class="tab-heading mobile tablinks"><span>Graphic Designing</span> <span></span></h3>
                 <div class="content tabcontent" id="Develop">
                     <p>Yes, of course, yes. It is because of the wonderful inbuilt design option accorded with the help of WordPress. It tries to preview the design with multiple types of options. Before finally preparing your webpage, you can always preview
                         the design once to ascertain the specifications of the design by your taste and want. For this, every user of WordPress needs to follow the following steps. In the first place, you are required to prepare your webpage. After that,
@@ -304,7 +410,8 @@
                 </div>
             </div>
             <div class="tabs">
-                <h3 class="tab-heading tablinks"><span>Nulla est turpis, hendrerit vitae sollicitudin a, venenatis quis arcu</span> <span></span></h3>
+                <h3 class="tab-heading desktop tablinks"><span>Nulla est turpis, hendrerit vitae sollicitudin a, venenatis quis arcu</span> <span></span></h3>
+                <h3 class="tab-heading mobile tablinks"><span>Graphic Designing</span> <span></span></h3>
                 <div class="content tabcontent" id="Develop">
                     <p>Yes, of course, yes. It is because of the wonderful inbuilt design option accorded with the help of WordPress. It tries to preview the design with multiple types of options. Before finally preparing your webpage, you can always preview
                         the design once to ascertain the specifications of the design by your taste and want. For this, every user of WordPress needs to follow the following steps. In the first place, you are required to prepare your webpage. After that,
@@ -315,7 +422,8 @@
                 </div>
             </div>
             <div class="tabs">
-                <h3 class="tab-heading tablinks"><span>Nulla est turpis, hendrerit vitae sollicitudin a, venenatis quis arcu</span> <span></span></h3>
+                <h3 class="tab-heading desktop tablinks"><span>Nulla est turpis, hendrerit vitae sollicitudin a, venenatis quis arcu</span> <span></span></h3>
+                <h3 class="tab-heading mobile tablinks"><span>Graphic Designing</span> <span></span></h3>
                 <div class="content tabcontent" id="Develop">
                     <p>Yes, of course, yes. It is because of the wonderful inbuilt design option accorded with the help of WordPress. It tries to preview the design with multiple types of options. Before finally preparing your webpage, you can always preview
                         the design once to ascertain the specifications of the design by your taste and want. For this, every user of WordPress needs to follow the following steps. In the first place, you are required to prepare your webpage. After that,
@@ -326,7 +434,8 @@
                 </div>
             </div>
             <div class="tabs">
-                <h3 class="tab-heading tablinks"><span>Sed orci tellus, fringilla eget scelerisque et, feugiat nec ligula</span> <span></span></h3>
+                <h3 class="tab-heading desktop tablinks"><span>Sed orci tellus, fringilla eget scelerisque et, feugiat nec ligula</span> <span></span></h3>
+                <h3 class="tab-heading mobile tablinks"><span>Graphic Designing</span> <span></span></h3>
                 <div class="content tabcontent" id="Develop">
                     <p>Yes, of course, yes. It is because of the wonderful inbuilt design option accorded with the help of WordPress. It tries to preview the design with multiple types of options. Before finally preparing your webpage, you can always preview
                         the design once to ascertain the specifications of the design by your taste and want. For this, every user of WordPress needs to follow the following steps. In the first place, you are required to prepare your webpage. After that,
@@ -337,7 +446,8 @@
                 </div>
             </div>
             <div class="tabs">
-                <h3 class="tab-heading tablinks"><span>Nam luctus elit eget ipsum gravida luctus. Maecenas auctor tortor arcu</span> <span></span></h3>
+                <h3 class="tab-heading desktop tablinks"><span>Nam luctus elit eget ipsum gravida luctus. Maecenas auctor tortor arcu</span> <span></span></h3>
+                <h3 class="tab-heading mobile tablinks"><span>Graphic Designing</span> <span></span></h3>
                 <div class="content tabcontent" id="Develop">
                     <p>Yes, of course, yes. It is because of the wonderful inbuilt design option accorded with the help of WordPress. It tries to preview the design with multiple types of options. Before finally preparing your webpage, you can always preview
                         the design once to ascertain the specifications of the design by your taste and want. For this, every user of WordPress needs to follow the following steps. In the first place, you are required to prepare your webpage. After that,
@@ -356,10 +466,13 @@
             <h2 class="back-txt">TESTIMONIAL</h2>
             <div class="title flex-row align-items-center p-absolute">
                 <img src="assets/image/image-border1.png" alt="asdf">
-                <p class="our-title">
+                <p class="our-title desktop">
                     Our Client’s Testimonials
                 </p>
-                <img src="assets/image/image border.png" alt="asdf">
+                <p class="our-title mobile">
+                    Our Testimonials
+                </p>
+                <img src="assets/image/image-border.png" alt="asdf">
             </div>
             <!-- <p class="slider-txt">
                 Great websites = Happy customers. Here’s our list!
